@@ -18,18 +18,19 @@ The model is tests and demonstrates several Mesa concepts and features:
 
 To install the dependencies use pip and the requirements.txt in this directory. e.g.
 
-    # First, we clone the rescue-robots-simulation repo
+# First, we clone the rescue-robots-simulation repo
     ```bash
-    git clone https://github.com/rescue-robots-simulation.git
+       git clone https://github.com/rescue-robots-simulation.git
     ```bash
-    cd RescueRobots
-    # activate the virtual environment
-    ## On Windows : 
+       cd RescueRobots
+# activate the virtual environment
+- On Windows : 
     ```bash
     rescueenv\Scripts\activate
-    ## On Linux : 
+- On Linux : 
     ```bash
     source rescuenv/bin/activate
+- then 
     ```bash
     cd RescueRobots
     ```bash
