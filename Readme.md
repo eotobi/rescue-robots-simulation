@@ -24,7 +24,7 @@ To install the dependencies use pip and the requirements.txt in this directory. 
            ```bash
               cd RescueRobots
        
-# activate the virtual environment
+###### activate the virtual environment
 - On Windows : 
     ```bash
     rescueenv\Scripts\activate
