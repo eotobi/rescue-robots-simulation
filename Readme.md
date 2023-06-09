@@ -20,8 +20,10 @@ To install the dependencies use pip and the requirements.txt in this directory. 
 ###### First, we clone the rescue-robots-simulation repo
           ```bash
           git clone https://github.com/rescue-robots-simulation.git
+          ```
           ```bash
           cd rescue-robots-simulation
+          ```
        
 ###### activate the virtual environment
 - On Windows : 
