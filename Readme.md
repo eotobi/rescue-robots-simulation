@@ -15,14 +15,13 @@ The model is tests and demonstrates several Mesa concepts and features:
  - Dynamically adding and removing agents from the schedule
 
 ## Installation
-
 To install the dependencies use pip and the requirements.txt in this directory. e.g.
 
 ###### First, we clone the rescue-robots-simulation repo
-```bash
-git clone https://github.com/rescue-robots-simulation.git
-```bash
-cd rescue-robots-simulation
+ ```bash
+ git clone https://github.com/rescue-robots-simulation.git
+ ```bash
+ cd rescue-robots-simulation
        
 ###### activate the virtual environment
 - On Windows : 
