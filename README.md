@@ -20,7 +20,7 @@ To install the dependencies use pip and the requirements.txt in this directory. 
 ###### first, we clone the rescue-robots-simulation repo
 - From terminal on required directory
     ```bash
-    git clone https://github.com/rescue-robots-simulation.git
+    git clone https://github.com/eotobi/rescue-robots-simulation.git
     ```
     ```bash
     cd rescue-robots-simulation
