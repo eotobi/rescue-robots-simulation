@@ -18,7 +18,6 @@ The model is tests and demonstrates several Mesa concepts and features:
 
 To install the dependencies use pip and the requirements.txt in this directory. e.g.
 
-```
     # First, we clone the rescue-robots-simulation repo
     ```bash
     git clone https://github.com/rescue-robots-simulation.git
@@ -35,7 +34,6 @@ To install the dependencies use pip and the requirements.txt in this directory. 
     cd RescueRobots
     ```bash
     pip install -r requirements.txt
-```
 
 ## How to Run
 
