@@ -17,13 +17,17 @@ The model is tests and demonstrates several Mesa concepts and features:
 ## Installation
 To install the dependencies use pip and the requirements.txt in this directory. e.g.
 
-###### First, we clone the rescue-robots-simulation repo
-       ```bash
-       git clone https://github.com/rescue-robots-simulation.git
-       ```
-       ```bash
-       cd rescue-robots-simulation
-       ```
+###### first, we clone the rescue-robots-simulation repo
+- From terminal on required directory
+    ```bash
+    git clone https://github.com/rescue-robots-simulation.git
+    ```
+    ```bash
+    cd rescue-robots-simulation
+    ```
+    ```bash
+    cd RescueRobots
+    ```
 ###### activate the virtual environment
 - On Windows : 
     ```bash
@@ -47,7 +51,8 @@ To run the model interactively, run ``mesa runserver`` in the root directory
 
 ```bash
     $ mesa runserver
-Then open your browser to [http://127.0.0.1:8521/](http://127.0.0.1:8521/) and press Reset, then Run.
+```
+Then open your browser to http://127.0.0.1:8521 and press Reset, then Run.
 
 ## Files
 
