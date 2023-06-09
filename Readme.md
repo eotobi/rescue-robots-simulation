@@ -27,14 +27,18 @@ To install the dependencies use pip and the requirements.txt in this directory. 
 - On Windows : 
     ```bash
     rescueenv\Scripts\activate
+    ```
 - On Linux : 
     ```bash
     source rescuenv/bin/activate
+    ```
 - then 
     ```bash
     cd RescueRobots
+    ```
     ```bash
     pip install -r requirements.txt
+    ```
 
 ## How to Run
 
