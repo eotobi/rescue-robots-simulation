@@ -1,9 +1,9 @@
-#Use an Ubuntu 18.04 base for our staging server
-FROM vm/ubuntu:18.04
+#Use an Ubuntu 22.04 base for our staging server
+FROM vm/ubuntu:22.04
 
 RUN curl -fSsL https://deb.nodesource.com/setup_12.x | bash && \
     apt-get update && \
-    apt-get install -y nodejs python3 python3-venv python3-pip make gcc build-essential && \
+    apt-get install -y nodejs python3.10 python3-venv python3-pip make gcc build-essential && \
     rm -f /etc/apt/sources.list.d/nodesource.list
     
 # node is a memory hog
@@ -26,7 +26,6 @@ RUN pip3 install -r requirements.txt
 
 # Start the development server
 RUN mesa runserver
-#RUN python3 run.py
 
 # Create a unique link to share the app in this runner.
 # Every time someone clicks the link, we'll wake up this staging server.
