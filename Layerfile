@@ -1,15 +1,9 @@
 #Use an Ubuntu 22.04 base for our staging server
 FROM vm/ubuntu:22.04
 
-RUN curl -fSsL https://deb.nodesource.com/setup_12.x | bash && \
-    apt-get update && \
-    apt-get install -y nodejs python3.10 python3-venv python3-pip make gcc build-essential && \
-    rm -f /etc/apt/sources.list.d/nodesource.list
+RUN apt-get update && \
+    apt-get install -y python3-venv python3-pip make gcc build-essential
     
-# node is a memory hog
-MEMORY 2G
-ENV NODE_OPTIONS=--max-old-space-size=8192
-
 # Copy the backend code into the container
 COPY ./ /app/RescueBobots/
 
