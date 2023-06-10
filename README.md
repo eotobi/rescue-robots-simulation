@@ -1,5 +1,8 @@
 # A Simulation of Explorer Drones and Firstaid Terrain Robots Model
 
+**Link to app**
+https://rescue-robots-simulation.onwebapp.io/
+
 ## Summary
 
 A simple  model, consisting of three agent types: Explorer drones, Firstaid Terrain Robots, and Patients. The Explorer drones fly over the drid at random in search of patients. When they find one checks if condition is critical if so call the Firstaid Terrain Robots to deliver first aid supplies. If not, the Explorer drones keeps searching.
