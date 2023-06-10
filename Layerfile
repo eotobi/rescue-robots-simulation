@@ -4,6 +4,9 @@ FROM vm/ubuntu:22.04
 RUN apt-get update && \
     apt-get install -y python3-venv python3-pip make gcc build-essential
     
+MEMORY 2G
+ENV NODE_OPTIONS=--max-old-space-size=8192
+
 # Copy the backend code into the container
 COPY . /app/RescueBobots/
 
@@ -19,7 +22,7 @@ RUN pip3 install --upgrade pip
 RUN pip3 install -r requirements.txt
 
 # Start the development server
-RUN mesa runserver
+RUN BACKGROUND mesa runserver 
 
 # Create a unique link to share the app in this runner.
 # Every time someone clicks the link, we'll wake up this staging server.
