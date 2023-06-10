@@ -5,7 +5,7 @@ RUN apt-get update && \
     apt-get install -y python3-venv python3-pip make gcc build-essential
     
 # Copy the backend code into the container
-COPY ./ /app/RescueBobots/
+COPY . /app/RescueBobots/
 
 # Install backend dependencies
 WORKDIR /app/RescueBobots/
